@@ -1,0 +1,37 @@
+<form class="form">
+  <mat-form-field class="form-field-textarea">
+    <mat-label>Текст</mat-label>
+    <textarea matInput></textarea>
+  </mat-form-field>
+
+  <div class="form-selcet-input-radio">
+    <div class="form-radio">
+      <label>Преобразование: </label>
+      <mat-radio-group class="radio-group">
+        <mat-radio-button value="auto">Зашифровать</mat-radio-button>
+        <mat-radio-button value="always">Расшифровать</mat-radio-button>
+      </mat-radio-group>
+    </div>
+
+    <div class="example-form-fields">
+      <mat-form-field class="form-field-input">
+        <input matInput placeholder="Ключь" required />
+      </mat-form-field>
+
+      <mat-form-field class="form-field-input">
+        <mat-select required>
+          <mat-option value="option">Метод 1</mat-option>
+          <mat-option value="option">Метод 2</mat-option>
+          <mat-option value="option">Метод 3</mat-option>
+        </mat-select>
+        <mat-label>Методы</mat-label>
+      </mat-form-field>
+    </div>
+
+    <div>
+      <input type="file" placeholder="Simple placeholder" required />
+    </div>
+  </div>
+
+  <button mat-raised-button color="warn">Шировать</button>
+</form>
