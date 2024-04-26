@@ -1,27 +1,42 @@
-.form-field-textarea {
-  width: 600px;
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
 }
 
-.textarea {
-  height: 100px;
+.form-field-textarea {
+  width: 100%;
+}
+
+.form-select-input-radio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.form-radio {
+  margin-bottom: 20px;
 }
 
 .example-form-fields {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .form-field-input {
-  margin: 0 20px;
+  width: 100%;
+  margin: 20px 0;
 }
 
-.form-selcet-input-radio {
-  display: flex;
+.show-container {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
 }
 
-.form-radio,
-.radio-group {
-  display: flex;
-  flex-direction: column;
+.show-container {
+  width: 500px;
+  word-break: break-all;
 }
